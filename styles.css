@@ -1,3 +1,17 @@
+html {
+  font-size: 14px;
+}
+
+
+body {
+  font-family: 'Poppins', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  min-height: 100vh;
+}
+
+body.signup {
+  display: flex;
+}
+
 @font-face {
   font-family: 'Poppins';
   font-style: 'normal';
@@ -7,5 +21,44 @@
 
 h1 {
   color: red;
-  font-family: 'Poppins', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 2;
+  background-image: url('/assets/background.jpg');
+  background-size: cover;
+
+  font-size: 1rem;
+  color: #fff;
+}
+
+.left a {
+  color: #fff;
+}
+
+.logo-wrap {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+
+}
+
+.logo {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 40px 0;
+  background: rgba(0,0,0, .4);
+}
+
+.photo-credits {
+  padding: 20px 0;
+  text-align: center;
+}
+
+.right {
+  flex-grow: 4;
 }
